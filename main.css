@@ -1,0 +1,35 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#calculator {
+    height:480px;
+    width:320px;
+    background-color:rgb(106, 94, 158);
+    margin:0 auto;
+    padding:20px;
+}
+
+#calculator input[type=text] {
+    width:100%;
+    margin: 0 auto;
+    display:table;
+    padding:16px;
+    border-radius:6px;
+    font-size:24px;
+}
+
+.num_btn {
+    float:left;
+    width:23%;
+    padding:12px;
+    text-align:center;
+    background-color:white;
+    border-radius:4px;
+    margin:1%;
+    border: 1px solid black;
+}
